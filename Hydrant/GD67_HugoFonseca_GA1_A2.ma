@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: GD67_HugoFonseca_GA1_A2.ma
-//Last modified: Thu, Jun 16, 2022 09:00:56 PM
+//Last modified: Thu, Jun 16, 2022 09:01:59 PM
 //Codeset: 1252
 requires maya "2022";
 requires "stereoCamera" "10.0";
@@ -12,18 +12,18 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202102181415-29bfc1879c";
 fileInfo "osv" "Windows 10 Enterprise v2009 (Build: 19044)";
-fileInfo "UUID" "16A55A01-4B12-B0ED-EC3D-4B9843506DB0";
+fileInfo "UUID" "2B538C0C-4D17-295B-530B-28B7D6D51E08";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "E8CF49EF-4749-A522-282A-02AD86EC3A4B";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -56.81818565903955 84.236436545340325 194.22882699751918 ;
+	setAttr ".t" -type "double3" -39.020614931240672 62.808054364249294 102.66826303157561 ;
 	setAttr ".r" -type "double3" 4667.0616471774701 2149.0000000004375 -2.0250525957625245e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "6A652190-4088-3109-2B60-5182C5BCB5BD";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 185.0994426615203;
+	setAttr ".coi" 89.39538861744353;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
